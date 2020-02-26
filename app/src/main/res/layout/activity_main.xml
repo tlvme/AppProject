@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/take_reading_button"
+        android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -21,14 +21,65 @@
         app:layout_constraintVertical_bias="0.40" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/take_reading_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
 
+        android:onClick="ButtonClick"
         android:text="Take a new reading"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/take_reading_button" />
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".PersonalInformationActivity"-->
+<!--    android:orientation="vertical">-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/ph_reading_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Enter pH reading"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginEnd="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginEnd="15dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/ph_reading_edit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="Enter pH reading"-->
+<!--            android:textSize="20sp"-->
+<!--            />-->
+<!--        <EditText-->
+<!--            android:id="@+id/ph_reading_edit_error"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="error"-->
+<!--            android:textSize="20sp"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
