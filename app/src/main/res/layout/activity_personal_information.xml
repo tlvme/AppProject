@@ -43,9 +43,580 @@
                     android:hint="Enter name."
                     android:textSize="@dimen/text_size"
                     />
-
-
             </LinearLayout>
+            <TextView
+                android:id="@+id/address_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter address."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/address_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter address."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/age_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter age."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/age_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter age."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/gender_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter gender."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/gender_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter gender."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/height_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter height."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/height_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter height."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/weight_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter weight."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/weight_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter weight."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/BMI_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter BMI."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/BMI_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter BMI."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/SystolicBloodPressure_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Systolic Blood Pressure(mm Hg)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/SystolicBloodPressure_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Systolic Blood Pressure(mm Hg)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/DiastolicBloodPressure_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Diastolic Blood Pressure(mm Hg)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/DiastolicBloodPressure_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Diastolic Blood Pressure(mm Hg)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/eGFR_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter eGFR(ml/min/1.73m^2)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/eGFR_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter eGFR(ml/min/1.73m^2)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Serumcreatinine_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum creatinine(μM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Serumcreatinine_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum creatinine(μM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Serumurea_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum urea(mM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Serumurea_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum urea(mM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Plasmaalbumin_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Plasma albumin(g/L)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Plasmaalbumin_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Plasma albumin(g/L)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/SerumUric_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum Uric acid(μM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/SerumUricacid_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum Uric acid(μM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Glucose_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Glucose(mM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Glucose_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Glucose(mM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/SerumCopper_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum Copper(μM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/SerumCopper_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum Copper(μM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/SerumZinc_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum Zinc(μM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/SerumZinc_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum Zinc(μM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/SerumSelenium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum Selenium(μM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/SerumSelenium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum Selenium(μM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/SerumCalcium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Serum Calcium(mM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/SerumCalcium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Serum Calcium(mM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/BloodLead_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Blood Lead(μM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/BloodLead_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Blood Lead(μM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/BloodCadmium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Blood Cadmium(nM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/BloodCadmium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Blood Cadmium(nM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/BloodChromium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Blood Chromium(nM)."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/BloodChromium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Blood Chromium(nM)."
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
