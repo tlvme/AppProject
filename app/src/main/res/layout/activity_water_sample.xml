@@ -585,6 +585,599 @@
 
     </LinearLayout>
 
+        <TextView
+            android:id="@+id/Al_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Al."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Al_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Al"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Al_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/V_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter V."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/V_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter V"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/V_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Mn_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Mn."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Mn_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Mn"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Mn_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Fe_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Fe."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Fe_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Fe"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Fe_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Ni_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Ni."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Ni_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Ni"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Ni_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Cu_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Cu."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Cu_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Cu"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Cu_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Zn_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Zn."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Zn_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Zn"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Zn_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Ba_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Ba."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Ba_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Ba"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Ba_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Co_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Co."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Co_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Co"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Co_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Mo_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Mo."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Mo_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Mo"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Mo_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Hg_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Hg."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Hg_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Hg"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Hg_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/As_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter As."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/As_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter As"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/As_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Cd_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Cd."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Cd_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Cd"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Cd_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Ag_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Ag."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Ag_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Ag"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Ag_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Cr_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Cr."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Cr_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Cr"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Cr_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Pb_reading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Pb."
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/margin_big"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide">
+
+            <EditText
+                android:id="@+id/Pb_reading_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Pb"
+                android:textSize="@dimen/text_size"
+                />
+            <EditText
+                android:id="@+id/Pb_reading_edit_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="error"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+
     </LinearLayout>
     </ScrollView>
 

@@ -148,9 +148,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter height."
+                    android:hint="Enter height"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/height_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/weight_reading_text"
@@ -175,9 +185,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter weight."
+                    android:hint="Enter weight"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/weight_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/BMI_reading_text"
@@ -202,9 +222,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter BMI."
+                    android:hint="Enter BMI"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/BMI_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/SystolicBloodPressure_reading_text"
@@ -229,9 +259,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Systolic Blood Pressure(mm Hg)."
+                    android:hint="Enter Systolic Blood Pressure(mm Hg)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/SystolicBloodPressure_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/DiastolicBloodPressure_reading_text"
@@ -256,9 +296,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Diastolic Blood Pressure(mm Hg)."
+                    android:hint="Enter Diastolic Blood Pressure(mm Hg)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/DiastolicBloodPressure_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/eGFR_reading_text"
@@ -283,9 +333,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter eGFR(ml/min/1.73m^2)."
+                    android:hint="Enter eGFR(ml/min/1.73m^2)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/eGFR_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/Serumcreatinine_reading_text"
@@ -310,9 +370,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum creatinine(μM)."
+                    android:hint="Enter Serum creatinine(μM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/Serumcreatinine_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/Serumurea_reading_text"
@@ -337,9 +407,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum urea(mM)."
+                    android:hint="Enter Serum urea(mM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/Serumurea_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/Plasmaalbumin_reading_text"
@@ -364,12 +444,22 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Plasma albumin(g/L)."
+                    android:hint="Enter Plasma albumin(g/L)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/Plasmaalbumin_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
-                android:id="@+id/SerumUric_reading_text"
+                android:id="@+id/SerumUricacid_reading_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Enter Serum Uric acid(μM)."
@@ -391,9 +481,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum Uric acid(μM)."
+                    android:hint="Enter Serum Uric acid(μM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/SerumUricacid_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/Glucose_reading_text"
@@ -418,9 +518,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Glucose(mM)."
+                    android:hint="Enter Glucose(mM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/Glucose_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/SerumCopper_reading_text"
@@ -445,9 +555,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum Copper(μM)."
+                    android:hint="Enter Serum Copper(μM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/SerumCopper_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/SerumZinc_reading_text"
@@ -472,9 +592,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum Zinc(μM)."
+                    android:hint="Enter Serum Zinc(μM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/SerumZinc_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/SerumSelenium_reading_text"
@@ -499,9 +629,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum Selenium(μM)."
+                    android:hint="Enter Serum Selenium(μM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/SerumSelenium_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/SerumCalcium_reading_text"
@@ -526,9 +666,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Serum Calcium(mM)."
+                    android:hint="Enter Serum Calcium(mM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/SerumCalcium_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/BloodLead_reading_text"
@@ -553,9 +703,19 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Blood Lead(μM)."
+                    android:hint="Enter Blood Lead(μM)"
                     android:textSize="@dimen/text_size"
                     />
+                <EditText
+                    android:id="@+id/BloodLead_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
             </LinearLayout>
             <TextView
                 android:id="@+id/BloodCadmium_reading_text"
