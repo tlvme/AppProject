@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun ButtonClick(view: View) {
-        val myIntent = Intent(this, WaterSampleActivity::class.java)
+        val myIntent = Intent(this, PersonalInformationActivity::class.java)
         startActivity(myIntent)
     }
 }
