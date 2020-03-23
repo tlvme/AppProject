@@ -589,7 +589,7 @@
             android:id="@+id/Al_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Al."
+            android:text="Enter Al reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -608,7 +608,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Al"
+                android:hint="Enter Al reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -626,7 +626,7 @@
             android:id="@+id/V_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter V."
+            android:text="Enter V reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -645,7 +645,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter V"
+                android:hint="Enter V reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -663,7 +663,7 @@
             android:id="@+id/Mn_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Mn."
+            android:text="Enter Mn reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -682,7 +682,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Mn"
+                android:hint="Enter Mn reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -700,7 +700,7 @@
             android:id="@+id/Fe_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Fe."
+            android:text="Enter Fe reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -719,7 +719,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Fe"
+                android:hint="Enter Fe reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -737,7 +737,7 @@
             android:id="@+id/Ni_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Ni."
+            android:text="Enter Ni reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -756,7 +756,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Ni"
+                android:hint="Enter Ni reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -774,7 +774,7 @@
             android:id="@+id/Cu_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Cu."
+            android:text="Enter Cu reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -793,7 +793,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Cu"
+                android:hint="Enter Cu reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -811,7 +811,7 @@
             android:id="@+id/Zn_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Zn."
+            android:text="Enter Zn reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -830,7 +830,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Zn"
+                android:hint="Enter Zn reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -848,7 +848,7 @@
             android:id="@+id/Ba_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Ba."
+            android:text="Enter Ba reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -867,7 +867,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Ba"
+                android:hint="Enter Ba reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -885,7 +885,7 @@
             android:id="@+id/Co_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Co."
+            android:text="Enter Co reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -904,7 +904,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Co"
+                android:hint="Enter Co reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -922,7 +922,7 @@
             android:id="@+id/Mo_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Mo."
+            android:text="Enter Mo reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -941,7 +941,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Mo"
+                android:hint="Enter Mo reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -959,7 +959,7 @@
             android:id="@+id/Hg_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Hg."
+            android:text="Enter Hg reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -978,7 +978,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Hg"
+                android:hint="Enter Hg reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -996,7 +996,7 @@
             android:id="@+id/As_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter As."
+            android:text="Enter As reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -1015,7 +1015,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter As"
+                android:hint="Enter As reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -1033,7 +1033,7 @@
             android:id="@+id/Cd_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Cd."
+            android:text="Enter Cd reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -1052,7 +1052,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Cd"
+                android:hint="Enter Cd reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -1070,7 +1070,7 @@
             android:id="@+id/Ag_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Ag."
+            android:text="Enter Ag reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -1089,7 +1089,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Ag"
+                android:hint="Enter Ag reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -1107,7 +1107,7 @@
             android:id="@+id/Cr_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Cr."
+            android:text="Enter Cr reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -1126,7 +1126,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Cr"
+                android:hint="Enter Cr reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
@@ -1144,7 +1144,7 @@
             android:id="@+id/Pb_reading_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Pb."
+            android:text="Enter Pb reading."
             android:textSize="@dimen/text_size"
             android:layout_marginTop="@dimen/margin_big"
             android:layout_marginStart="@dimen/margin_wide"
@@ -1163,7 +1163,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Enter Pb"
+                android:hint="Enter Pb reading"
                 android:textSize="@dimen/text_size"
                 />
             <EditText
