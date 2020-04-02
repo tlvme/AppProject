@@ -15,21 +15,19 @@ class PersonalInformationActivity : AppCompatActivity() {
     }
 
     fun buttonCLick(view: View) {
-//        val myIntent = Intent(this, WaterSampleActivity::class.java)
-//        startActivity(myIntent)
-
-        val nameView = findViewById<EditText>(R.id.name_reading_edit)
-        val addressView = findViewById<EditText>(R.id.address_reading_edit)
-
-        val name = nameView.text.toString().trim()
-        val address = addressView.text.toString().trim()
 
         val ref = FirebaseDatabase.getInstance().getReference("example")
 
         val sampleId = ref.push().key!!
 
-        val sample = Example(sampleId, name, address)
+        ref.child(sampleId).child("name").setValue(findViewById<EditText>(R.id.name_reading_edit).text.toString().trim())
+        ref.child(sampleId).child("address").setValue(findViewById<EditText>(R.id.address_reading_edit).text.toString().trim())
 
-        ref.child(sampleId).setValue(sample)
+
+
+        val myIntent = Intent(this, WaterSampleActivity::class.java)
+        myIntent.putExtra("sampleId", sampleId)
+
+        startActivity(myIntent)
     }
 }
