@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import com.google.firebase.database.FirebaseDatabase
+import kotlinx.android.synthetic.main.activity_personal_information.*
 
 class PersonalInformationActivity : AppCompatActivity() {
 
@@ -20,8 +21,8 @@ class PersonalInformationActivity : AppCompatActivity() {
 
         val sampleId = ref.push().key!!
 
-        ref.child(sampleId).child("name").setValue(findViewById<EditText>(R.id.name_reading_edit).text.toString().trim())
-        ref.child(sampleId).child("address").setValue(findViewById<EditText>(R.id.address_reading_edit).text.toString().trim())
+        ref.child(sampleId).child("name").setValue(name_reading_edit.text.toString().trim())
+        ref.child(sampleId).child("address").setValue(address_reading_edit.text.toString().trim())
 
 
 

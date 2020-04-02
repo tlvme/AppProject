@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import com.google.firebase.database.FirebaseDatabase
+import kotlinx.android.synthetic.main.activity_water_sample.*
 
 class WaterSampleActivity : AppCompatActivity() {
 
@@ -18,7 +19,7 @@ class WaterSampleActivity : AppCompatActivity() {
         val sampleId = intent.getStringExtra("sampleId")!!
         val ref = FirebaseDatabase.getInstance().getReference("example")
 
-        ref.child(sampleId).child("phReading").setValue(findViewById<EditText>(R.id.ph_reading_edit).text.toString().trim())
+        ref.child(sampleId).child("phReading").setValue(ph_reading_edit.text.toString().trim())
 
 
 
