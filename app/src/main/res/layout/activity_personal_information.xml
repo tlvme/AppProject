@@ -147,16 +147,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
                     android:hint="Enter height"
-                    android:textSize="@dimen/text_size"
-                    />
+                    android:inputType="number|numberDecimal"
+                    android:textSize="@dimen/text_size" />
                 <EditText
                     android:id="@+id/height_reading_edit_error"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
+
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -184,7 +184,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter weight"
                     android:textSize="@dimen/text_size"
                     />
@@ -193,7 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -221,7 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter BMI"
                     android:textSize="@dimen/text_size"
                     />
@@ -230,7 +230,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -258,7 +258,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Systolic Blood Pressure(mm Hg)"
                     android:textSize="@dimen/text_size"
                     />
@@ -267,7 +267,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -295,7 +295,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Diastolic Blood Pressure(mm Hg)"
                     android:textSize="@dimen/text_size"
                     />
@@ -304,7 +304,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -332,7 +332,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter eGFR(ml/min/1.73m^2)"
                     android:textSize="@dimen/text_size"
                     />
@@ -341,7 +341,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -369,7 +369,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum creatinine(μM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -378,7 +378,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -406,7 +406,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum urea(mM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -415,7 +415,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -443,7 +443,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Plasma albumin(g/L)"
                     android:textSize="@dimen/text_size"
                     />
@@ -452,7 +452,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -480,7 +480,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum Uric acid(μM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -489,7 +489,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -517,7 +517,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Glucose(mM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -526,7 +526,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -554,7 +554,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum Copper(μM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -563,7 +563,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -591,7 +591,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum Zinc(μM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -600,7 +600,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -628,7 +628,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum Selenium(μM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -637,7 +637,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -665,7 +665,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Serum Calcium(mM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -674,7 +674,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -702,7 +702,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Blood Lead(μM)"
                     android:textSize="@dimen/text_size"
                     />
@@ -711,7 +711,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="error"
                     android:textSize="@dimen/text_size"
                     />
@@ -739,7 +739,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Blood Cadmium(nM)."
                     android:textSize="@dimen/text_size"
                     />
@@ -766,7 +766,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:inputType="number|numberDecimal"
                     android:hint="Enter Blood Chromium(nM)."
                     android:textSize="@dimen/text_size"
                     />

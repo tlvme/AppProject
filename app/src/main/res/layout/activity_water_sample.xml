@@ -11,1174 +11,1326 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.8">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-    <TextView
-        android:id="@+id/ph_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter pH reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/ph_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter pH reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/ph_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/alkalinity_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter total alkalinity reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/alkalinity_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter alkalinity reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/alkalinity_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/ec_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter EC reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/ec_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter EC reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/ec_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/tds_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter TDS reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/tds_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter TDS reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/tds_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/turbidity_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter turbidity reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/turbidity_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter turbidity reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/turbidity_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/hardness_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter total hardness reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/hardness_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter total hardness reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/hardness_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/sodium_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Sodium reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/sodium_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter sodium reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/sodium_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/potassium_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Potassium reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/potassium_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter potassium reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/potassium_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/calcium_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Calcium reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/calcium_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter calcium reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/calcium_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/magnesium_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Magnesium reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/magnesium_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter magnesium reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/magnesium_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/fluoride_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Fluoride reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/fluoride_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter Fluoride reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/fluoride_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/chloride_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Chloride reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/chloride_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter chloride reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/chloride_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/nitrate_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Nitrate reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/nitrate_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter nitrate reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/nitrate_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/phosophate_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Phosphate reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/phosphate_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter phosphate reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/phosphate_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/sulphate_reading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Sulphate reading"
-        android:textSize="@dimen/text_size"
-        android:layout_marginTop="@dimen/margin_big"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide">
-
-        <EditText
-            android:id="@+id/sulphate_reading_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Enter sulphate reading"
-            android:textSize="@dimen/text_size"
-            />
-        <EditText
-            android:id="@+id/sulphate_reading_edit_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="error"
-            android:textSize="@dimen/text_size"
-            />
-
-    </LinearLayout>
-
-        <TextView
-            android:id="@+id/Al_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Al reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ph_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter pH reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
 
-            <EditText
-                android:id="@+id/Al_reading_edit"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Al reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Al_reading_edit_error"
-                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/ph_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter pH reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/ph_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/alkalinity_reading_text"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
+                android:text="Enter total alkalinity reading"
                 android:textSize="@dimen/text_size"
-                />
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/alkalinity_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter alkalinity reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/alkalinity_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ec_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter EC reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/ec_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter EC reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/ec_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tds_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter TDS reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/tds_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter TDS reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/tds_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/turbidity_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter turbidity reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/turbidity_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter turbidity reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/turbidity_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hardness_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter total hardness reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/hardness_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter total hardness reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/hardness_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sodium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Sodium reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/sodium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter sodium reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/sodium_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/potassium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Potassium reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/potassium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter potassium reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/potassium_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/calcium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Calcium reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/calcium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter calcium reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/calcium_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/magnesium_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Magnesium reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/magnesium_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter magnesium reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/magnesium_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fluoride_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Fluoride reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/fluoride_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Fluoride reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/fluoride_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/chloride_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Chloride reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/chloride_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter chloride reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/chloride_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nitrate_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Nitrate reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/nitrate_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter nitrate reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/nitrate_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phosophate_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Phosphate reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/phosphate_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter phosphate reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/phosphate_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sulphate_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Sulphate reading"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/sulphate_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter sulphate reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/sulphate_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Al_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Al reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Al_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Al reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Al_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/V_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter V reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/V_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter V reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/V_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Mn_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Mn reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Mn_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Mn reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Mn_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Fe_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Fe reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Fe_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Fe reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Fe_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Ni_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Ni reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Ni_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Ni reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Ni_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Cu_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Cu reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Cu_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Cu reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Cu_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Zn_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Zn reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Zn_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Zn reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Zn_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Ba_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Ba reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Ba_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Ba reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Ba_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Co_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Co reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Co_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Co reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Co_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Mo_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Mo reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Mo_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Mo reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Mo_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Hg_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Hg reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Hg_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Hg reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Hg_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/As_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter As reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/As_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter As reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/As_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Cd_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Cd reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Cd_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Cd reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Cd_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Ag_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Ag reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Ag_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Ag reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Ag_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Cr_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Cr reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Cr_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Cr reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Cr_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Pb_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Pb reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/Pb_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Pb reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/Pb_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/silica_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Silica reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/silica_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter silica reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/silica_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/b_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter B reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/b_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter B reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/b_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/li_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Li reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/li_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Li reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/li_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sr_reading_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Sr reading."
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginStart="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/margin_wide">
+
+                <EditText
+                    android:id="@+id/sr_reading_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="Enter Sr reading"
+                    android:textSize="@dimen/text_size"
+                    />
+                <EditText
+                    android:id="@+id/sr_reading_edit_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:hint="error"
+                    android:textSize="@dimen/text_size"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
-        <TextView
-            android:id="@+id/V_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter V reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/V_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter V reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/V_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Mn_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Mn reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Mn_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Mn reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Mn_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Fe_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Fe reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Fe_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Fe reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Fe_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Ni_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Ni reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Ni_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Ni reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Ni_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Cu_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Cu reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Cu_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Cu reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Cu_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Zn_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Zn reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Zn_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Zn reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Zn_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Ba_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Ba reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Ba_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Ba reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Ba_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Co_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Co reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Co_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Co reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Co_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Mo_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Mo reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Mo_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Mo reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Mo_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Hg_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Hg reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Hg_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Hg reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Hg_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/As_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter As reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/As_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter As reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/As_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Cd_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Cd reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Cd_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Cd reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Cd_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Ag_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Ag reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Ag_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Ag reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Ag_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Cr_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Cr reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Cr_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Cr reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Cr_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-        <TextView
-            android:id="@+id/Pb_reading_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Pb reading."
-            android:textSize="@dimen/text_size"
-            android:layout_marginTop="@dimen/margin_big"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginStart="@dimen/margin_wide"
-            android:layout_marginEnd="@dimen/margin_wide">
-
-            <EditText
-                android:id="@+id/Pb_reading_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Enter Pb reading"
-                android:textSize="@dimen/text_size"
-                />
-            <EditText
-                android:id="@+id/Pb_reading_edit_error"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="error"
-                android:textSize="@dimen/text_size"
-                />
-
-        </LinearLayout>
-
-    </LinearLayout>
     </ScrollView>
 
     <Button
