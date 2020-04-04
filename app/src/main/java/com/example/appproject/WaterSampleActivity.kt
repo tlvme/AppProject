@@ -14,8 +14,32 @@ class WaterSampleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_water_sample)
     }
 
+    fun checkEmpty(a: EditText): Int {
+        val message = a.text.toString().trim();
+        if (message.isEmpty()) {
+            a.error = "Please enter this value"
+            return 1
+        }
+        return 0
+    }
+
     fun buttonClickOk(view: View) {
 
+        var flag = 0
+
+        var list = arrayListOf<EditText>().apply {
+
+            addAll(listOf(ph_reading_edit, ph_reading_edit_error, alkalinity_reading_edit, alkalinity_reading_edit_error, ec_reading_edit, ec_reading_edit_error, tds_reading_edit, tds_reading_edit_error, turbidity_reading_edit, turbidity_reading_edit_error, hardness_reading_edit, hardness_reading_edit_error, sodium_reading_edit, sodium_reading_edit_error, potassium_reading_edit, potassium_reading_edit_error, calcium_reading_edit, calcium_reading_edit_error, magnesium_reading_edit, magnesium_reading_edit_error, fluoride_reading_edit, fluoride_reading_edit_error, chloride_reading_edit, chloride_reading_edit_error, nitrate_reading_edit, nitrate_reading_edit_error, phosphate_reading_edit, phosphate_reading_edit_error, sulphate_reading_edit, sulphate_reading_edit_error, Al_reading_edit, Al_reading_edit_error, V_reading_edit, V_reading_edit_error, Mn_reading_edit, Mn_reading_edit_error, Fe_reading_edit, Fe_reading_edit_error, Ni_reading_edit, Ni_reading_edit_error, Cu_reading_edit, Cu_reading_edit_error, Zn_reading_edit, Zn_reading_edit_error, Ba_reading_edit, Ba_reading_edit_error, Co_reading_edit, Co_reading_edit_error, Mo_reading_edit, Mo_reading_edit_error, Hg_reading_edit, Hg_reading_edit_error, As_reading_edit, As_reading_edit_error, Cd_reading_edit, Cd_reading_edit_error, Ag_reading_edit, Ag_reading_edit_error, Cr_reading_edit, Cr_reading_edit_error, Pb_reading_edit, Pb_reading_edit_error, silica_reading_edit, silica_reading_edit_error, b_reading_edit, b_reading_edit_error, li_reading_edit, li_reading_edit_error, sr_reading_edit, sr_reading_edit_error))
+        }
+
+
+        for (i in list) {
+            flag += checkEmpty(i)
+        }
+
+        if (flag>0) {
+            return
+        }
         val sampleId = intent.getStringExtra("sampleId")!!
         val ref = FirebaseDatabase.getInstance().getReference("example")
 
