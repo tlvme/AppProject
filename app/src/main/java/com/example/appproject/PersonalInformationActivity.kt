@@ -16,7 +16,7 @@ class PersonalInformationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_personal_information)
     }
 
-    fun checkEmpty(a: EditText): Int {
+    private fun checkEmpty(a: EditText): Int {
         val message = a.text.toString().trim();
         if (message.isEmpty()) {
             a.error = "Please enter this value"
