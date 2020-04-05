@@ -1,13 +1,22 @@
 package com.example.appproject
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Environment
+import android.provider.MediaStore
 import android.view.View
 import android.widget.EditText
+import android.widget.Toast
+import androidx.core.content.FileProvider
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_personal_information.*
 import kotlinx.android.synthetic.main.activity_personal_information.view.*
+import java.io.File
+import java.io.IOException
+import java.text.SimpleDateFormat
+import java.util.*
 
 class PersonalInformationActivity : AppCompatActivity() {
 
@@ -15,6 +24,9 @@ class PersonalInformationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_personal_information)
     }
+
+
+
 
     private fun checkEmpty(a: EditText): Int {
         val message = a.text.toString().trim();
@@ -26,6 +38,11 @@ class PersonalInformationActivity : AppCompatActivity() {
     }
 
     fun buttonCLick(view: View) {
+
+
+//        Toast.makeText(this, "error in camera", Toast.LENGTH_LONG).show()
+
+
 
         var flag = 0
 
