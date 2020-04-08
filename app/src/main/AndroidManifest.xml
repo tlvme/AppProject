@@ -19,7 +19,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SuccessScreen"></activity>
         <activity android:name=".WaterSampleActivity" />
-        <activity android:name=".PersonalInformationActivity" />
+        <activity android:name=".PersonalInformationActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
